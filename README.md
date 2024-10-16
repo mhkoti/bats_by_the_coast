@@ -1,7 +1,7 @@
 # bats_by_the_coast
 Material and code for an article: Lundberg et al. 2024 - Contrasting seasonal distribution patterns could reduce interspecific competition in two boreal aerial hawking bats
 
-This repository includes a pre-processed dataset and all necessary code for replicating the analyses in Material and code for an article: Lundberg et al. 2024 - Contrasting seasonal distribution patterns could reduce interspecific competition in two boreal aerial hawking bats
+This repository includes a pre-processed dataset and all necessary code for replicating the analyses and viasualization of results for the article: Lundberg et al. 2024 - Contrasting seasonal distribution patterns of two boreal aerial hawking bat species in Finland. There is also a shapefile for Finnish Admistrative borders (Source: National Land Survey 2022, Licence: https://www.maanmittauslaitos.fi/en/opendata-licence-version1), which is required for some visualizations.
 
 In the data file 'data.csv' there are following columns:
 
@@ -33,4 +33,4 @@ This dataset is compiled from the recordings made during a citizen sience projec
 
 During pre-processing of the data, raw bat observations have been cleaned to remove misidentifications and non-focal taxa. The remaining observations have been allocated into recording periods (two consecutive nights during which Audiomoth were scheduled to record) grouped by recording night, year, species and observation site.
 
-The R script 'bbtcoast_script.R' includes all necessary code for fitting the models presented in the article. The user only needs to store 'bbtcoast_data.csv' in the working directory and run the script. The script was developed and tested with R version 4.2.0, tidyverse 1.3.1, spaMM_4.1.20, DHARMa 0.4.5.
+The R script 'bbtcoast_script.R' includes all necessary code for fitting the models presented in the article. The user only needs to store 'bbtcoast_data.csv' in the working directory and run the script. The script was developed and tested with R version 4.2.0, tidyverse 1.3.1, spaMM_4.1.20, DHARMa 0.4.5. To also produce the visalizations of model results, the user needs to save the finnish adminstrative borders shapefile in the same working directory.
