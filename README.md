@@ -1,7 +1,7 @@
 # bats_by_the_coast
 Material and code for an article: Lundberg et al. 2024 - Contrasting seasonal distribution patterns could reduce interspecific competition in two boreal aerial hawking bats
 
-This repository includes a pre-processed dataset and all necessary code for replicating the analyses and viasualization of results for the article: Lundberg et al. 2024 - Contrasting seasonal distribution patterns of two boreal aerial hawking bat species in Finland. There is also a shapefile for Finnish Admistrative borders (Source: National Land Survey 2022, Licence: https://www.maanmittauslaitos.fi/en/opendata-licence-version1), which is required for some visualizations. Pre-fitted set of models for P. nathusii and E. nilssonii is also provided, in case user want to skip model fitting part which can take up to 10 minutes.
+This repository includes a pre-processed dataset and all necessary code for replicating the analyses and viasualization of results for the article: Lundberg et al. 2024 - Contrasting seasonal distribution patterns of two boreal aerial hawking bat species in Finland. There is also a shapefile for Finnish Admistrative borders (Source: National Land Survey 2022, Licence: https://www.maanmittauslaitos.fi/en/opendata-licence-version1), which is required for some visualizations.
 
 In the data file 'data.csv' there are following columns:
 
